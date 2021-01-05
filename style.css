@@ -1,0 +1,66 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+}
+section{
+    height: 500px;
+    padding-bottom: 80px;
+}
+img{
+    width: 100%;
+}
+p{
+    color: gray;
+    text-align: justify;
+}
+/* top-banner-area start*/
+.top-banner-area{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.tomato{
+    color: tomato;
+}
+.button{
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, pink, tomato);
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;   
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;  
+}
+.single-experience{
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px gray;
+    border-left: 7px solid;
+    padding-left: 30px;
+   
+}
+#full-stack{
+    border-image: linear-gradient(180deg, orange, tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+}
